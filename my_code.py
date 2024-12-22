@@ -9,8 +9,8 @@ data = {"Name":["Ram","Shayam","Mohan"],
 df = pd.DataFrame(data)
 
 # Adding new_row to df for v2
-# new_row1 = {"Name":"Nobita","Age":21,"City":"Tokyo"}
-# df.loc[len(df.index)] = new_row1
+new_row1 = {"Name":"Nobita","Age":21,"City":"Tokyo"}
+df.loc[len(df.index)] = new_row1
 #
 # Adding new_roe to df for v3
 # new_row2 = {"Name":"Amit","Age":25,"City":"Dumka"}
